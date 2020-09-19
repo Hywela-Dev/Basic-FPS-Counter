@@ -6,6 +6,7 @@ public class FpsCounter : MonoBehaviour
 {
 
     public int FPS;
+    //You can hook up an input for this to toggle the fps counter on or off.
     bool toggleFPS = true;
 
     private void Update()
